@@ -6,12 +6,11 @@ import {Tab} from './../tabs/tab';
   selector: 'home',
   templateUrl: 'app/components/home/home.html',
   styleUrls: ['app/components/home/home.css'],
-  providers: [],
   template: `
-      <tabs>
-        <tab active='false' [tab-title]="'Tab 1'">Tab 1 Content</tab>
-        <tab active='true' tab-title="Tab 2">Tab 2 Content</tab>
-      </tabs>
+    <tabs>
+      <tab [tabTitle]="'Tab 1'">Tab 1 Content</tab>
+      <tab tabTitle="Tab 2">Tab 2 Content</tab>
+    </tabs>
     `,
   directives: [Tabs, Tab]
 })

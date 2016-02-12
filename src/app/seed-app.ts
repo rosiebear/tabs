@@ -9,7 +9,7 @@ import {RepoBrowser} from './components/repo-browser/repo-browser';
   selector: 'seed-app',
   providers: [],
   templateUrl: 'app/seed-app.html',
-  directives: [ROUTER_DIRECTIVES],
+  directives: [ROUTER_DIRECTIVES, ],
   pipes: []
 })
 @RouteConfig([
